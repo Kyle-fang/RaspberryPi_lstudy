@@ -1,0 +1,19 @@
+树莓派连WiFi时遇到中文WiFi名时WiFi名乱码，而且还连不上，怎么办呢？
+
+最简单的就是改WiFi名，改成英文名就解决问题了，但是有的时候名字改不了，或者不想改怎么办呢？
+很显然是一堆乱码
+连接时输入密码后还会报错
+在终端输入命令 sudo wpa_cli
+
+> add_network
+4     记住这个号码！
+ 
+> set_network 4 ssid "这不是你家的WiFi"   （WiFi名）生成的号码是几就写几，下文同理；
+OK
+> set_network 4 psk "123456789"     （WiFi密码）
+OK
+> enable_network 4
+OK
+> save_config           别忘了这个，否则重启之后网络配置可能丢失
+OK
+

@@ -1,0 +1,14 @@
+打开SSH服务
+
+  执行raspi-config:
+      sudo raspi-config
+
+  选择InterfacingOptions
+  
+  选择SSH，回车 
+
+Windows下客户端
+  推荐使用putty这个免费开源的SSH客户端。
+
+putty :
+  填入树莓派的IP地址，点击右下角的Open即可。 

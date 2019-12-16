@@ -5,9 +5,9 @@
 ' sudo nano /etc/apt/sources.list '
 ## 将更改下面文本中加粗的文字：
 '''
-deb http://**mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian**/ buster main contrib $
-#Uncomment line below then 'apt-get update' to enable 'apt-get source'
-#deb-src http://mirrors.ustc.edu.cn/raspbian/raspbian/ buster main contrib non-$
+deb http://**mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian**/ buster main contrib $ <br>
+#Uncomment line below then 'apt-get update' to enable 'apt-get source' <br>
+#deb-src http://mirrors.ustc.edu.cn/raspbian/raspbian/ buster main contrib non-$ <br>
 '''
 ## 目前最新的树莓派中国大陆地区的软件源:
 

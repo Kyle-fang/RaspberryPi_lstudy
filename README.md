@@ -1,8 +1,8 @@
 # RaspberryPi_study
 
-#获取root权限
+# 获取root权限
 
-' sudo su '
+'sudo su'
 
 # (一)更换软件原
 ## 打开终端输入：
@@ -49,5 +49,11 @@ sudo apt-get upgate
 sudo apt-get upgrade
 '''
 
-# 安装中文输入法
+# (二)安装中文输入法
+'sudo apt-get install scim-pinyin'
+   - 然后重启
+      - 'reboot'
+      
+# (三)解决中文名的wifi乱码和连接不上的的问题
+
 

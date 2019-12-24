@@ -2,17 +2,17 @@
 
 # 获取root权限
 
-'sudo su'
+`sudo su`
 
 # (一)更换软件原
 ## 打开终端输入：
-' sudo nano /etc/apt/sources.list '
+`sudo nano /etc/apt/sources.list `
 ## 将更改下面文本中加粗的文字：
-'''
+```
 deb http://**mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian**/ buster main contrib $ <br>
 #Uncomment line below then 'apt-get update' to enable 'apt-get source' <br>
 #deb-src http://mirrors.ustc.edu.cn/raspbian/raspbian/ buster main contrib non-$ <br>
-'''
+```
 ## 目前最新的树莓派中国大陆地区的软件源:
 
 中国科学技术大学
@@ -41,18 +41,14 @@ Raspbian http://mirrors.cqu.edu.cn/Raspbian/raspbian/
 Raspbian http://mirror.nus.edu.sg/raspbian/raspbian
 
 ## 更新软件源
-'''
-sudo apt-get upgate
-'''
+`sudo apt-get upgate`
 ## 更新软件
-'''
-sudo apt-get upgrade
-'''
+`sudo apt-get upgrade`
 
 # (二)安装中文输入法
-'sudo apt-get install scim-pinyin'
+`sudo apt-get install scim-pinyin`
    - 然后重启
-      - 'reboot'
+      - `reboot`
       
 # (三)解决中文名的wifi乱码和连接不上的的问题
 

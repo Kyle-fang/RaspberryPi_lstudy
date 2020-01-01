@@ -59,5 +59,23 @@ Raspbian http://mirror.nus.edu.sg/raspbian/raspbian
    - 必须在输入框内时，按Ctrl＋space才有效
       
 # (三)解决中文名的wifi乱码和连接不上的的问题
+- 若WIFI没有密码
+   - ```
+     network={ssid="WiFi的名称"
+     key_mgmt-NONE
+     }
+- 若W使用WEP加密
+   - ```
+     network={ssid="WiFi名称"
+     key_mgmt=NONE
+     wep_key0="WiFi密码"
+     } 
+- 若W使用WPA／WPA2加密
+   - ```
+     network={ssid="WiFi名称"
+     key_mgmt=WPA-PSK
+     psk="WiFi密码"
+     }
+   
 
 

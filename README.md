@@ -81,4 +81,16 @@ Raspbian http://mirror.nus.edu.sg/raspbian/raspbian
      }
    
 
-
+## 安装jupyter notebook
+- 更新软件源
+   - `apt-get update`
+   - `apt-get dist-upgrade`
+- 软件由Python（pip）管理， 而不是由操作系统软件管理器（APT）管理。输入以下命令，可以得到所需得要的一切。
+   - `apt-get install python3-matplotlib`
+   - `apt-get install python3-scipy`
+- 安装jupyter
+   - `pip3 install jupyter`\
+- 输入以下指令，清理为了更新树莓派而下载的软件包
+   - `apt-get clean`
+   
+   

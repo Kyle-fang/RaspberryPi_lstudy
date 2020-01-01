@@ -89,7 +89,7 @@ Raspbian http://mirror.nus.edu.sg/raspbian/raspbian
    - `apt-get install python3-matplotlib`
    - `apt-get install python3-scipy`
 - 安装jupyter
-   - `pip3 install jupyter`\
+   - `pip3 install jupyter`
 - 输入以下指令，清理为了更新树莓派而下载的软件包
    - `apt-get clean`
    

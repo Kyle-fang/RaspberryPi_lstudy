@@ -49,6 +49,14 @@ Raspbian http://mirror.nus.edu.sg/raspbian/raspbian
 `sudo apt-get install scim-pinyin`
    - 然后重启
       - `reboot`
+   ## 树莓派安装scim-pinyin后Ctrl＋space切换不了中文输入法
+   该解决方法在树莓派4B上亲测有效
+- 右键点击树莓派操作界面右上输入法图标-->点击退出按钮（输入法的图标会消失）
+- 打开终端输入
+    - `sudo scim`
+  输入法会被重启,这个时候Ctrl＋space就可以切换了
+- **注意**：scim-pinyin输入法有一个BUG：
+   - 必须在输入框内时，按Ctrl＋space才有效
       
 # (三)解决中文名的wifi乱码和连接不上的的问题
 
